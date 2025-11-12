@@ -9,6 +9,10 @@ public class EquipamentoContagemFalhasDTO {
         this.totalFalhas = totalFalhas;
     }
 
+    public EquipamentoContagemFalhasDTO() {
+
+    }
+
     public String getNomeEquipamento() {
         return nomeEquipamento;
     }

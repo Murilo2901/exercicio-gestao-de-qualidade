@@ -1,4 +1,4 @@
-package org.example.Model;
+package org.example.DTO;
 
 public class RelatorioParadaDTO {
     private String nomeEquipamento;
@@ -9,12 +9,12 @@ public class RelatorioParadaDTO {
         this.totalParadaHora = totalParadaHora;
     }
 
-    public String getNomeEquipamento() {
-        return nomeEquipamento;
+    public RelatorioParadaDTO() {
+
     }
 
-    public double getTotalParadaHora() {
-        return totalParadaHora;
+    public String getNomeEquipamento() {
+        return nomeEquipamento;
     }
 
     public void setNomeEquipamento(String nomeEquipamento) {
@@ -23,5 +23,9 @@ public class RelatorioParadaDTO {
 
     public void setTotalParadaHora(double totalParadaHora) {
         this.totalParadaHora = totalParadaHora;
+    }
+
+    public double getTotalParadaHora() {
+        return totalParadaHora;
     }
 }

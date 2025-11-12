@@ -1,4 +1,8 @@
-package org.example.Model;
+package org.example.DTO;
+
+import org.example.Model.AcaoCorretiva;
+import org.example.Model.Equipamento;
+import org.example.Model.Falha;
 
 import java.util.List;
 
