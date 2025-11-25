@@ -4,7 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/exercicio-gestao-de-qualidade-main/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> 28c56dc72de012233d9cbe381e9c508d931ee050
       </list>
     </option>
   </component>
